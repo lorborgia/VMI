@@ -1,0 +1,52 @@
+dataLayer.push({
+   "event":  "view_item_list",
+   "ecommerce":  {
+    "items": [{
+      "item_id": "9bdd2",
+      "item_name": "Compton T-Shirt",
+      "price": "44.00",
+      "item_brand": "Compton",
+      "item_category": "T-Shirts",
+      "item_list_name": "shirts you may like",
+      "index": 0
+    },
+    {
+      "item_id": "239b5",
+      "item_name": "Pigzart T-Shirt",
+      "price": "82.00",
+      "item_brand": "Pigzart",
+      "item_category": "T-Shirts",
+      "item_list_name": "shirts you may like",
+      "index": 1
+    },
+    {
+      "item_id": "dc646",
+      "item_name": "Lunchpod T-Shirt",
+      "price": "90.00",
+      "item_brand": "Lunchpod",
+      "item_category": "T-Shirts",
+      "item_list_name": "shirts you may like",
+      "index": 2
+    },
+    {
+      "item_id": "7w9e0",
+      "item_name": "Masons T-Shirt",
+      "price": "31.00",
+      "item_brand": "Masons",
+      "item_category": "T-Shirts",
+      "item_list_name": "shirts you may like",
+      "index": 3
+    }]
+  }
+});
+dataLayer.push({
+   "event":  "view_promotion",
+   "ecommerce":  {
+    "promotions": [{
+      "promotion_id": "bts",
+      "promotion_name": "Back To School",
+      "creative_slot": "HOME banner",
+      "location_id": "right sidebar"
+    }]
+  }
+});
