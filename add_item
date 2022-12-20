@@ -1,7 +1,31 @@
-inserire l'evento: add_item
-azione aggiunta al carrello (clic prima della finestra modale)
-aggiungere il parametro:
 
-Nome: supplier
-Tipo: string
-Valore di esempio: Google	(Il supplier visualizzato)
+azione aggiunta al carrello (clic prima della finestra modale)
+
+
+dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "add_item",
+  ecommerce: {
+    items: [
+    {
+      item_id: "SKU_12345",
+      item_name: "Stan and Friends Tee",
+      coupon: "SUMMER_FUN",
+      currency: "USD",
+      discount: 2.22,
+      index: 0,
+      item_brand: "Google",
+      item_category: "Apparel",
+      item_category2: "Adult",
+      item_category3: "Shirts",
+      item_category4: "Crew",
+      item_category5: "Short sleeve",
+      item_list_id: "related_products",
+      item_list_name: "Related Products",
+      item_variant: "green",
+      price: 9.99,
+      quantity: 1
+    }
+    ]
+  }
+});
