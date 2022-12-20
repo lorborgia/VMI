@@ -1,3 +1,7 @@
+inserire l'evento: select_supplier
+azione clic sul supplier
+aggiungere il parametro:
 
-
-select_supplier
+Nome: supplier
+Tipo: string
+Valore di esempio: Google	(Il supplier visualizzato)
