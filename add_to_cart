@@ -21,6 +21,7 @@ dataLayer.push({
       item_variant: "green",
       price: 9.99,
       quantity: 1
+      type: "private label"
     }
     ]
   }
