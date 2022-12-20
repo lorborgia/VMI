@@ -1,0 +1,7 @@
+inserire l'evento: view_supplier
+
+aggiungere il parametro:
+
+Nome: supplier
+Tipo: string
+Valore di esempio: Google	(Il supplier visualizzato)
