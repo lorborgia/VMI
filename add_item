@@ -1,0 +1,7 @@
+inserire l'evento: add_item
+azione aggiunta al carrello (clic prima della finestra modale)
+aggiungere il parametro:
+
+Nome: supplier
+Tipo: string
+Valore di esempio: Google	(Il supplier visualizzato)
